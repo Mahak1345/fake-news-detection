@@ -84,7 +84,7 @@ if st.button("🔍 Check News",use_container_width=True):
         fake_prob=prob[0]*100
         real_prob=prob[1]*100
         confidence=max(fake_prob,real_prob)
-st.divider()
+        st.divider()
 
         if pred == 1:
             st.success("🟢 REAL NEWS")
